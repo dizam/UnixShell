@@ -1,0 +1,7 @@
+g++ -ansi -Wall -g -c directory.cpp
+g++ -ansi -Wall -g -c funix.cpp
+g++ -ansi -Wall -g -c main.cpp
+g++ -ansi -Wall -g -c permissions.cpp
+g++ -ansi -Wall -g -c Time.cpp
+g++ -ansi -Wall -g -c file.cpp
+g++ -ansi -Wall -g -o funix.out directory.o funix.o main.o permissions.o Time.o file.o  
